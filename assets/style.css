@@ -1,0 +1,236 @@
+body {
+  margin: 0;
+  font-family: sans-serif;
+  font-size: 15px;
+  line-height: 1.6;
+  color: #333;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+}
+
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.intro {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  height: 100vh;
+  background: url("images/21.jpg") center no-repeat;
+  background-size: cover;
+}
+
+.intro_inner {
+  width: 100%;
+  max-width: 880px;
+  margin: 0 auto;
+  text-align: center;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+.intro_titile {
+  color: #fff;
+  font-size: 130px;
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 1;
+  margin: 60px auto;
+}
+
+.intro_subtitle {
+  margin-bottom: 15px;
+  font-size: 50px;
+  color: #fff;
+}
+
+/* Header */
+.header {
+  width: 100%;
+  padding-top: 30px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+}
+
+.header_logo {}
+
+.header_line {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav {
+  font-size: 30px;
+  font-family: 'Source Sans Pro', sans-serif;
+  height: auto;
+  border-radius: 15px;
+}
+
+.nav_link {
+  display: inline-block;
+  vertical-align: top;
+  margin: 0 15px;
+  text-decoration: none;
+  color: #fff;
+  transition: color .2s linear;
+}
+
+.nav_link:hover {
+  color: #5b78c7;
+  opacity: 100%;
+  font-size: 25px;
+}
+
+.btn {
+  display: inline-block;
+  vertical-align: top;
+  padding: 10px 15px;
+  border: 2px solid #fff;
+  font-size: 25px;
+  color: #fff;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: 700;
+}
+
+.btn:hover {
+  background-color: #fff;
+  color: #333;
+}
+
+.footer {
+  height: 50px;
+  background: #313132;
+  color: #fff;
+}
+
+.footer_name {
+  text-align: center;
+  font-size: 15px;
+  padding: 10px;
+}
+
+.section {
+  padding: 80px 0;
+  background: url("images/sierra.jpg") center no-repeat;
+  background-size: cover;
+  color: #fff;
+}
+
+.section_header {
+  width: 100%;
+  max-width: 950px;
+  margin: 0 auto 40px;
+  text-align: center;
+}
+
+.section_subtitle {
+  font-family: 'Source Sans Pro', sans-serif;
+  text-transform: uppercase;
+}
+
+.section_title {
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+.section_text {
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+/*about */
+.about {
+  display: flex;
+  justify-content: space-between;
+}
+
+.about_item {
+  margin: auto;
+}
+
+.img_text {
+  border-radius: 50%;
+}
+
+.statics {
+  background-color: #95e1d3;
+}
+
+.stat {
+  display: flex;
+}
+
+.stat_item {
+  flex: 1 1 0;
+  text-align: center;
+  padding: 70px 25px;
+  border-left: 1px solid #b5eae0;
+  color: #fff;
+}
+
+.stat_count {
+  margin-bottom: 10px;
+  font-size: 72px;
+  font-weight: 700;
+  line-height: 1;
+}
+
+.stat_text {
+  font-size: 25px;
+  text-transform: uppercase;
+  color: #333;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+.price_cart {
+  background: url("images/sierra.jpg") center no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.block_cart {
+  border: 1px solid #333;
+  width: 250px;
+  height: auto;
+  color: #fff;
+  margin: 10px 10px;
+
+}
+.block_cart p, h1{
+   text-align: center;
+}
+
+
+.block_cart button{
+  margin-left: 100px;
+  margin-bottom: 5px;
+  border: 1px solid #333;
+  height: 30px;
+  width: 60px;
+}
+
+.block_1 {
+  height: 150px;
+  width: 100px;
+  border: solid 1px #333;
+  margin-left: 75px;
+  background-color: #fff;
+
+
+}
